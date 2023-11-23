@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 class Hello():
     def __init__(self, first_name: str, last_name: str) -> None:
         self.first_name = first_name
@@ -8,4 +10,5 @@ class Hello():
 
 user = Hello('Mateus', 'Laranjeira')
 print(user)
+
     
